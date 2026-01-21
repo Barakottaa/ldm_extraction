@@ -1,0 +1,27 @@
+# Oracle Forms binary files
+*.fmb
+*.fmx
+*.mmb
+*.mmx
+*.pll
+*.plx
+
+# Backup files
+*.bak
+*.old
+*.tmp
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
