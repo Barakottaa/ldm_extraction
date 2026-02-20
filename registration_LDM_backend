@@ -1,0 +1,124 @@
+DECLARE
+  l_reg        reg%ROWTYPE;
+  l_tests      registration.tests_tab; -- EMPTY but NOT NULL
+  l_reg_key    NUMBER;
+  l_branch     NUMBER;
+  l_location   NUMBER;
+
+  -- Fixed DOB
+  v_dob        DATE := DATE '1997-02-11';
+BEGIN
+  /*--------------------------------------------------
+    1. Get branch & default location (FORMS behavior)
+  --------------------------------------------------*/
+  SELECT branch_code, default_location
+  INTO   l_branch, l_location
+  FROM   system_table;
+
+  /*--------------------------------------------------
+    2. Prepare REG record
+  --------------------------------------------------*/
+  l_reg.patient_name   := 'TEST PATIENT';
+  l_reg.patient_prefix := 'Mr';
+  l_reg.sex            := 1;
+  l_reg.tel_no         := '0000000000';
+
+  l_reg.birthday   := v_dob;
+  l_reg.age_years  := TRUNC(MONTHS_BETWEEN(SYSDATE, v_dob) / 12);
+  l_reg.age_months := TRUNC(MOD(MONTHS_BETWEEN(SYSDATE, v_dob), 12));
+  l_reg.age_days   := TRUNC(SYSDATE - ADD_MONTHS(
+                              v_dob,
+                              l_reg.age_years * 12 + l_reg.age_months));
+
+  l_reg.reg_date  := SYSDATE;
+  l_reg.urgent    := 2;
+  l_reg.vip       := 2;
+  l_reg.biohazard := 2;
+
+  l_tests.DELETE; -- EMPTY collection, valid
+
+  /*--------------------------------------------------
+    3. Insert REG (REG_KEY & LAB_NO generated internally)
+  --------------------------------------------------*/
+  registration.insert_reg(
+    r                => l_reg,
+    te               => l_tests,
+    v_doctor_code    => NULL,
+    v_location_name  => NULL,
+    pat_comments     => 'MANUAL TEST',
+    pat_comments_add => NULL,
+    reg_branch       => l_branch,
+    reg_location     => l_location
+  );
+
+  /*--------------------------------------------------
+    4. Safely reconstruct REG_KEY (NO RACE CONDITION)
+  --------------------------------------------------*/
+  SELECT TO_NUMBER(
+           barcoding.get_reg_branch ||
+           LPAD(reg_seq.CURRVAL,
+                barcoding.get_reg_key_length,
+                '0')
+         )
+  INTO l_reg_key
+  FROM dual;
+
+  /*--------------------------------------------------
+    5. FORMS-CORRECT use of RESERVED_TESTS_TEMP
+       (force TEST_STATUS = 0)
+  --------------------------------------------------*/
+  DELETE FROM reserved_tests_temp;
+
+  INSERT INTO reserved_tests_temp (test_code, test_type, status)
+  VALUES (2536, 1, 0);
+
+  /*--------------------------------------------------
+    6. Insert REG_SELECTED_SERVICES
+  --------------------------------------------------*/
+  INSERT INTO reg_selected_services (
+    reg_key,
+    service_code,
+    service_type,
+    patient_fee,
+    insurance_fee,
+    created_by,
+    created_date,
+    iscancelled,
+    update_flag,
+    group_code
+  )
+  VALUES (
+    l_reg_key,
+    2536,
+    1,
+    0,
+    0,
+    'TEST_USER',
+    SYSDATE,
+    2,
+    1,
+    4
+  );
+
+  /*--------------------------------------------------
+    7. Insert REG_LINES (via system procedure)
+       TEST_STATUS will be 0
+  --------------------------------------------------*/
+  insert_service_lines(
+    R_KEY     => l_reg_key,
+    S_CODE    => 2536,
+    S_TYPE    => 1,
+    CR_BY     => 'TEST_USER',
+    CR_DATE   => SYSDATE,
+    S_DONE_BY => 'TEST_USER'
+  );
+
+  /*--------------------------------------------------
+    8. FORMS CLEANUP (CRITICAL)
+  --------------------------------------------------*/
+  DELETE FROM reserved_tests_temp;
+
+  COMMIT;
+END;
+/
+

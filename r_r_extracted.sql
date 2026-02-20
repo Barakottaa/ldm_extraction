@@ -1,0 +1,215 @@
+-- Extracted SQL from r_r module
+-- 1. Message Retrieval
+SELECT DISPLAY_OPTION,
+    DECODE(
+        DISPLAY_LANG,
+        'E',
+        E_DISPLAY_TEXT,
+        'A',
+        DISPLAY_TEXT
+    ),
+    DISPLAY_TYPE,
+    SHOW_DEFAULT
+FROM MESSAGES
+WHERE MESS_CODE = :b1
+    AND MESS_LEVEL = 'E'
+    AND DB_CODE = :b2
+    AND (
+        DISPLAY_MODE = :b3
+        OR DISPLAY_MODE = 'BOTH'
+    );
+-- 2. System Messages
+SELECT SYSTEM_MESSAGES
+FROM SYSTEM_TABLE_SEC;
+-- 3. Display Title
+SELECT DISPLAY_TITLE D
+FROM SYSTEM_TABLE_SEC;
+-- 4. Object Name Lookup
+SELECT OBJECT_NAME N
+FROM OBJECTS
+WHERE UPPER(OBJECT_PATH) = UPPER(:b1);
+-- 5. Object ID Lookup
+SELECT OBJECT_ID
+FROM OBJECTS
+WHERE UPPER(OBJECT_PATH) = UPPER(:b1);
+-- 6. User Privilege Check
+SELECT *
+FROM USER_PRIVILEGE
+WHERE USER_ID = :b1
+    AND OBJECT_ID = :b2;
+-- 7. User Group Retrieval
+SELECT USER_GROUP
+FROM USERS
+WHERE USER_ID = :b1;
+-- 8. Group Privilege Check
+SELECT *
+FROM GROUP_PRIVILEGE
+WHERE GROUP_ID = :b1
+    AND OBJECT_ID = :b2;
+-- 9. Security Settings
+SELECT USE_RIGHTS R,
+    USE_SECURITY S
+FROM SYSTEM_TABLE_SEC;
+-- 10. Clear Temp Tables
+DELETE FROM T_REG;
+DELETE FROM T_REG_LINES;
+DELETE FROM T_TESTS_ENTRY_LINES;
+DELETE FROM T_TEXT_ENTRY_LINES;
+DELETE FROM T_CULTURE_ENTRY_LINES;
+-- 11. Check Send Result
+SELECT DISTINCT SEND_RESULT
+FROM T_REG_LINES;
+-- 12. Update Receive Status
+UPDATE T_REG_LINES L
+SET TEST_STATUS = 3,
+    RECEIVE_RESULT_USER = :b1,
+    RECEIVE_DATE = SYSDATE;
+-- 13. Count Registrations
+SELECT COUNT(REG_KEY)
+FROM T_REG;
+-- 14. Count Test Lines
+SELECT COUNT(
+        DISTINCT L.GROUP_CODE || L.TEST_CODE || L.TEST_TYPE
+    )
+FROM T_REG_LINES L;
+-- 15. Get Branch Name
+SELECT DISTINCT BRANCH_NAME
+FROM BRANCHES,
+    REG_LINES L
+WHERE BRANCH_CODE = L.SEND_TO_BRANCH;
+-- 16. Select Temp Tests
+SELECT *
+FROM T_TESTS_ENTRY_LINES;
+-- 17. Count Existing Tests
+SELECT COUNT(*)
+FROM TESTS_ENTRY_LINES T
+WHERE T.REG_KEY = :b1
+    AND T.TEST_CODE = :b2
+    AND T.GROUP_CODE = :b3
+    AND T.TEST_TYPE = :b4;
+-- 18. Update Test Entries
+UPDATE TESTS_ENTRY_LINES
+SET RESULT = :b1,
+    RESULT2 = :b2,
+    DESCRIPTIVE = :b3,
+    COMMENTS = :b4,
+    R_FROM = :b5,
+    R_TO = :b6,
+    VERIFIED = :b7,
+    VERIFIED_BY = :b8,
+    UNIT = :b9,
+    PROFILE_SER = :b10,
+    TEST_STATUS = :b11,
+    REPORT_PRINTED = :b12,
+    VISIBLE = :b13,
+    AGE_COMMENTS = :b14
+WHERE REG_KEY = :b15
+    AND TEST_CODE = :b16
+    AND GROUP_CODE = :b17
+    AND TEST_TYPE = :b18;
+-- 19. Insert New Test Entries
+INSERT INTO TESTS_ENTRY_LINES
+SELECT *
+FROM T_TESTS_ENTRY_LINES T
+WHERE T.REG_KEY = :b1
+    AND T.TEST_CODE = :b2
+    AND T.GROUP_CODE = :b3
+    AND T.TEST_TYPE = :b4;
+-- 20. Update Reg Lines (Tests)
+UPDATE REG_LINES L
+SET TEST_STATUS = 3,
+    SEND_RESULT = :b1,
+    RECEIVE_RESULT_USER = :b2,
+    RECEIVE_DATE = SYSDATE
+WHERE (
+        L.REG_KEY,
+        L.GROUP_CODE,
+        L.TEST_CODE,
+        L.TEST_TYPE
+    ) IN (
+        SELECT T.REG_KEY,
+            T.GROUP_CODE,
+            T.REG_TEST_CODE,
+            T.TEST_TYPE
+        FROM T_TESTS_ENTRY_LINES T
+    );
+-- 21. Delete Text Entries
+DELETE FROM TEXT_ENTRY_LINES T
+WHERE (T.REG_KEY, T.GROUP_CODE, TEST_CODE, T.TEST_TYPE) IN (
+        SELECT L.REG_KEY,
+            L.GROUP_CODE,
+            L.TEST_CODE,
+            L.TEST_TYPE
+        FROM T_TEXT_ENTRY_LINES L
+    );
+-- 22. Insert Text Entries
+INSERT INTO TEXT_ENTRY_LINES
+SELECT *
+FROM T_TEXT_ENTRY_LINES;
+-- 23. Update Reg Lines (Text)
+UPDATE REG_LINES L
+SET TEST_STATUS = 3,
+    RECEIVE_RESULT_USER = :b1,
+    RECEIVE_DATE = SYSDATE
+WHERE (
+        L.REG_KEY,
+        L.GROUP_CODE,
+        L.TEST_CODE,
+        L.TEST_TYPE
+    ) IN (
+        SELECT T.REG_KEY,
+            T.GROUP_CODE,
+            T.REG_TEST_CODE,
+            T.TEST_TYPE
+        FROM T_TEXT_ENTRY_LINES T
+    );
+-- 24. Delete Culture Entries
+DELETE FROM CULTURE_ENTRY_LINES T
+WHERE (
+        T.REG_KEY,
+        T.GROUP_CODE,
+        T.CULTURE_CODE,
+        T.TEST_TYPE,
+        T.ORG_CODE,
+        T.ANTI_CODE,
+        T.SENSTIVITY_CODE
+    ) IN (
+        SELECT L.REG_KEY,
+            L.GROUP_CODE,
+            L.CULTURE_CODE,
+            L.TEST_TYPE,
+            L.ORG_CODE,
+            L.ANTI_CODE,
+            L.SENSTIVITY_CODE
+        FROM T_CULTURE_ENTRY_LINES L
+    );
+-- 25. Insert Culture Entries
+INSERT INTO CULTURE_ENTRY_LINES
+SELECT *
+FROM T_CULTURE_ENTRY_LINES T;
+-- 26. Update Reg Lines (Culture)
+UPDATE REG_LINES L
+SET TEST_STATUS = 3,
+    RECEIVE_RESULT_USER = :b1,
+    RECEIVE_DATE = SYSDATE
+WHERE (
+        L.REG_KEY,
+        L.GROUP_CODE,
+        L.TEST_CODE,
+        L.TEST_TYPE
+    ) IN (
+        SELECT T.REG_KEY,
+            T.GROUP_CODE,
+            T.REG_TEST_CODE,
+            T.TEST_TYPE
+        FROM T_CULTURE_ENTRY_LINES T
+    );
+-- Identified Program Units / Procedures
+-- CHECK_FLASH (Uses TEXT_IO, checks for :\test.txt)
+-- GET_IMP_STATE (Uses TEXT_IO, reads log/rr_.log)
+-- GET_STATE (Checks export status)
+-- BLOCK_UPDATE
+-- BLOCK_INSERT
+-- BLOCK_DELETE
+-- BLOCK_QUERY
+-- CENTER_FORM

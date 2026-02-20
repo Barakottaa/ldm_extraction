@@ -1,0 +1,2387 @@
+ROS.60050
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ BpD N
+P(VpZpZ8Z8\@^8b
+g0h0i0j0k0l0m
+n0o0p
+]R_G_date
+ BpD
+R TpVpV8V8X8Z8\
+a0b0c0d0e0f0g
+h0i0j
+bM_G_date_FTR
+# JpL h
+j(nprpr@r8v8x8z
+ZF_Sumsum_paid_cashPerReport
+NNNGNNNGNNNGNN0D00
+# JpL T
+V(Zp^p^8^8`8b8d
+p0q0r0sptpv0v
+} ~ 
+^F_date
+id_0
+# JpL X
+Z(^pbpb@b8f8h8j
+v0w0x0ypzp
+`F_Paid_Cash
+NNNGNNNGNNNGNN0D00
+NGNN
+# JpL R
+T(Zp^p^8^8`8b8d
+p0q0r0sptpv0v
+F_day
+m
+sh
+# JpL X
+Z(^pbpb8b8d8f8h
+r0s0t0upvp
+F_date_from
+dd-mm-yyyy hh24:mi
+# JpL V
+X(^pbpb@b8f8h8j
+t0u0v0wpxp
+F_date_to
+dd-mm-yyyy hh24:mi
+# JpL T
+V(Zp^p^@^@b8f8h
+r0s0t0upvp
+jF_DATE2
+dd-mm-yyyy hh24:mi
+# JpL R
+T(Zp^p^8^@b8f8h
+t0u0v0wpxp
+qUSER
+"Print Date" dd-mm-yyyy hh24:mi
+# JpL V
+X(^pbpb8b8d8f8h
+t0u0v0wpxpz0z
+F_branch
+# JpL P
+R(VpZpZ@Z8^8`8b
+l0m0n0opppr0r
+# JpL X
+Z(^pbpb@b8f8h8j
+v0w0x0ypzp
+|F_Paid_Visa
+NNNGNNNGNNNGNN0D00
+y hh
+# JpL j
+l(rpvpv@v8z8|8~
+~F_Sumsum_paid_visaPerReport1
+NNNGNNNGNNNGNN0D00
+ ( *
+
+00r100g100b0
+' ( *
+	00r0g100b50
+ ( * ,
+
+00r25g100b50@
+ ( * ,
+
+00r50g100b50
+ ( * ,
+
+00r75g100b50
+ ( * ,
+
+00r88g100b50
+ * , .
+00r100g100b50
+' ( *
+	00r0g100b75
+ ( * ,
+
+00r25g100b75@
+ ( * ,
+
+00r50g100b75
+ ( * ,
+
+00r75g100b75
+ ( * ,
+
+00r88g100b75
+ * , .
+00r100g100b75
+' ( *
+	00r0g100b88
+ ( * ,
+
+00r25g100b88@
+ ( * ,
+
+00r50g100b88
+ ( * ,
+
+00r75g100b88
+ ( * ,
+
+00r88g100b88
+ * , .
+00r100g100b88
+( * ,
+
+00r0g100b100
+ * , .
+00r25g100b100
+ * , .
+00r50g100b100
+ * , .
+00r75g100b100
+ * , .
+00r88g100b100
+ * , .
+00r100g100b100
+
+00r88g75b100
+ * , .
+00r100g75b100
+a(bpf
+
+r100g25b88
+00custom1
+>p?p?pB0B
+ >p@p@p@0P
+sTimes New Roman
+ bpd
+* Zp\ d
+f(jpnpn@n8r8t8v
+7THOUSANDS
+ bpd
+mday
+ Zp\
+a(bpfx~
+<B_Total
+* Zp\
+a(bpfpf8f8h8j8l
+VB_3
+* Zp\ d
+f(jpnpn8n8p8r8t
+|B_date1
+* Zp\
+h(nprpr8r@v8z8|
+B_PAGENUM1
+QUpd
+* Zp\
+a(bpfpf@f8j8l8n
+* Zp\
+a(bpfpf@f@j8n8p
+* Zp\
+a(bpfpf8f@j8n8p
+* Zp\ `
+b(fpjpj8j@n@r0v
+* Zp\
+a(bpfpf8f8h8j8l
+* Zp\ d
+f(jpnpn@n8r8t8v
+NB_Paid1
+* Zp\ d
+f(jpnpn@n8r8t8v
+QB_Paid2
+ ( * ,
+
+00r25g100b75@
+ ( * ,
+
+00r50g100b75
+ ( * ,
+
+00r75g100b75
+ ( * ,
+
+00r88g100b75
+ * , .
+00r100g100b75
+' ( *
+	00r0g100b88
+ ( * ,
+
+00r25g100b88@
+ ( * ,
+
+00r50g100b88
+ ( * ,
+
+00r75g100b88
+ ( * ,
+
+00r88g100b88
+ * , .
+00r100g100b88
+( * ,
+
+00r0g100b100
+ * , .
+00r25g100b100
+ * , .
+00r50g100b100
+ * , .
+00r75g100b100
+ * , .
+00r88g100b100
+ * , .
+00r100g100b100
+
+00r88g75b100
+ * , .
+00r100g75b100
+k0l8n0p8r8t
+v x0z0{
+r#r#r#r#r#r&
+&r'r*
+*r.r7
+8r9rO
+gngd1
+<html>
+<body bgcolor="#ffffff">
+
+</body></html>
+
+<html>
+<body bgcolor="#ffffff">
+<form method=post action="_action_">
+<input name="hidden_run_parameters" type=hidden value="_hidden_">
+<center>
+<p><table border=0 cellspacing=0 cellpadding=0>
+<tr>
+<td><input type=submit></td>
+<td width=15>
+<td><input type=reset></td>
+</tr>
+</table>
+<p><hr><p>
+
+</center>
+</body>
+</form>
+</html>
+
+<hr size=5 noshade>
+
+D_INCOME
+<?xml version="1.0"?>
+B(F0J
+K@N@R@V@Z0^0_0`0a0b0c
+d0e0f
+h0i0j0k
+oppp
+fr#r
+Report Parameters
+Enter values for the parameters
+black
+   " $
+white
+green
+	darkgreen
+   " $
+gray96
+=
+=
+=
+   " $
+gray92
+   " $
+gray88
+   " $
+gray84(
+r0g0b0
+r25g0b0
+r50g0b0
+r75g0b0
+r88g0b0
+r100g0b0
+r0g0b50
+r25g0b50@
+r50g0b50
+r75g0b50
+r88g0b50
+	r100g0b50
+r0g0b75
+r25g0b75@
+r50g0b75
+r75g0b75
+r88g0b75
+	r100g0b75
+r0g0b88
+r25g0b88@
+r50g0b88
+r75g0b88
+r88g0b88
+	r100g0b88
+r0g0b100
+	r25g0b100
+	r50g0b100
+	r75g0b100
+	r88g0b100
+
+r100g0b100
+   "
+gray
+ " $ &
+darkgray
+   "
+cyan
+" $ &
+darkcyan
+   " $
+gray80333333
+   " $
+gray76=p=p=p
+   " $
+gray72G
+   " $
+gray68Q
+r0g25b0
+ " $
+r25g25b0@
+ " $
+r50g25b0
+ " $
+r75g25b0
+ " $
+r88g25b0
+ $ &
+	r100g25b0
+" $ &
+r0g25b50
+ $ & (
+	r25g25b50
+ $ & (
+	r50g25b50
+ $ & (
+	r75g25b50
+ $ & (
+	r88g25b50
+ $ & (
+
+r100g25b50
+" $ &
+r0g25b75
+ $ & (
+	r25g25b75
+ $ & (
+	r50g25b75
+ $ & (
+	r75g25b75
+ $ & (
+	r88g25b75
+ $ & (
+
+r100g25b75
+" $ &
+r0g25b88
+ $ & (
+	r25g25b88
+ $ & (
+	r50g25b88
+ $ & (
+	r75g25b88
+ $ & (
+	r88g25b88
+g75b100
+,pfROSATTRIBS
+class attributes
+ROSLFDESC
+ros lf descrip
+'r*ROSOBJMAP
+ros name->id
+ROSSTRINGS
+tk2 uiStrings
+(</ROSSTRUCTS
+struct types
+(<fROSTK2RESV
+tk2 reserved
+="SRW2_ANCHOR
+$ vSRW2_BODY_LOCATION
+"=0SRW2_BOILERPLATE
+><SRW2_BUTTON
+15SRW2_COLUMN
+!>
+SRW2_DATA_MODEL
+"
+<SRW2_DISPLAY_TAG
+SRW2_DISTRIBUTION
+SRW2_ELEMENT
+0cSRW2_FIELD
+SRW2_FORMAT_EXCEPTION
+ReSRW2_FRAME
+heSRW2_GROUP
+SRW2_GROUP_NODE
+   SRW2_HYPERLINK
+SRW2_JAVA_APPLET
+SRW2_JAVA_PROPERTIES
+SRW2_LAYOUT
+#
+=SRW2_LAYOUT_GROUP
+zSRW2_LINK
+aySRW2_LISTS
+SRW2_MATRIX
+ SRW2_OGD_COLUMN_MAP
+" "SRW2_OG_DOCUMENT
+SRW2_PARAM_FORM
+SRW2_QUERY
+SRW2_TEXT_SEGMENT
+TOOL_COMMENT
+b0TOOL_LIBRARY
+TOOL_MODULE
+ &TOOL_PLSQL
+VG_COLOR
+VG_COLOR
+)VG_COLOR
+ITEMID
+)VG_COLOR
+CELLID
++VG_COLOR
+NAME_SET
+-VG_COLOR
+NAME_LENGTH
+-VG_COLOR
+COLOR_NAME
+%VG_COLOR
+'VG_COLOR
+GREEN
+'VG_COLOR
+BLUE
+To Char I Date Dd Mm Yyyy
+Sum Paid
+Total Daily Income 
+To          : 
+Sum Paid
+To Char I Date Dd Mm Yyyy
+Page &<PageNumber>
+ Date
+ Paid
+Total
+From Date:
+ Day
+Page &<PageNumber> of &<TotalPages>
+Cashier :
+Printed Date:
+Printed By:
+Branch      :
+Cash
+Visa
+ray68Q
+r0g25b0
+ " $
+r25g25b0@
+ " $
+r50g25b0
+ " $
+r75g25b0
+ " $
+r88g25b0
+ $ &
+	r100g25b0
+" $ &
+r0g25b50
+ $ & (
+	r25g25b50
+ $ & (
+	r50g25b50
+ $ & (
+	r75g25b50
+ $ & (
+	r88g25b50
+ $ & (
+
+r100g25b50
+" $ &
+r0g25b75
+ $ & (
+	r25g25b75
+ $ & (
+	r50g25b75
+ $ & (
+	r75g25b75
+ $ & (
+	r88g25b75
+ $ & (
+
+r100g25b75
+" $ &
+r0g25b88
+ $ & (
+	r25g25b88
+ $ & (
+	r50g25b88
+ $ & (
+	r75g25b88
+ $ & (
+	r88g25b88
+g75b100
+RIBS
+class attributes
+ROSLFDESC
+ros lf descrip
+'r*ROSOBJMAP
+ros name->id
+ROSSTRINGS
+tk2 uiStrings
+(</ROSSTRUCTS
+struct types
+(<fROSTK2RESV
+tk2 reserved
+="SRW2_ANCHOR
+$ vSRW2_BODY_LOCATION
+"=0SRW2_BOILERPLATE
+><SRW2_BUTTON
+15SRW2_COLUMN
+!>
+SRW2_DATA_MODEL
+"
+<SRW2_DISPLAY_TAG
+SRW2_DISTRIBUTION
+SRW2_ELEMENT
+0cSRW2_FIELD
+SRW2_FORMAT_EXCEPTION
+ReSRW2_FRAME
+heSRW2_GROUP
+SRW2_GROUP_NODE
+   SRW2_HYPERLINK
+SRW2_JAVA_APPLET
+SRW2_JAVA_PROPERTIES
+SRW2_LAYOUT
+#
+=SRW2_LAYOUT_GROUP
+zSRW2_LINK
+aySRW2_LISTS
+SRW2_MATRIX
+ SRW2_OGD_COLUMN_MAP
+" "SRW2_OG_DOCUMENT
+SRW2_PARAM_FORM
+SRW2_QUERY
+SRW2_TEXT_SEGMENT
+TOOL_COMMENT
+b0TOOL_LIBRARY
+TOOL_MODULE
+ &TOOL_PLSQL
+VG_COLOR
+VG_COLOR
+)VG_COLOR
+ITEMID
+)VG_COLOR
+CELLID
++VG_COLOR
+NAME_SET
+-VG_COLOR
+NAME_LENGTH
+-VG_COLOR
+COLOR_NAME
+%VG_COLOR
+'VG_COLOR
+GREEN
+'VG_COLOR
+BLUE
+To Char I Date Dd Mm Yyyy
+Sum Paid
+Total Daily Income 
+To          : 
+Sum Paid
+To Char I Date Dd Mm Yyyy
+Page &<PageNumber>
+ Date
+ Paid
+Total
+From Date:
+ Day
+Page &<PageNumber> of &<TotalPages>
+Cashier :
+Printed Date:
+Printed By:
+Branch      :
+Cash
+Visa
+ray68Q
+r0g25b0
+ " $
+r25g25b0@
+ " $
+r50g25b0
+ " $
+r75g25b0
+ " $
+r88g25b0
+ $ &
+	r100g25b0
+" $ &
+r0g25b50
+ $ & (
+	r25g25b50
+ $ & (
+	r50g25b50
+ $ & (
+	r75g25b50
+ $ & (
+	r88g25b50
+ $ & (
+
+r100g25b50
+" $ &
+r0g25b75
+ $ & (
+	r25g25b75
+ $ & (
+	r50g25b75
+ $ & (
+	r75g25b75
+ $ & (
+	r88g25b75
+ $ & (
+
+r100g25b75
+" $ &
+r0g25b88
+ $ & (
+	r25g25b88
+ $ & (
+	r50g25b88
+ $ & (
+	r75g25b88
+ $ & (
+	r88g25b88
+g75b100
+RIBS
+class attributes
+ROSLFDESC
+ros lf descrip
+'r*ROSOBJMAP
+ros name->id
+ROSSTRINGS
+tk2 uiStrings
+(</ROSSTRUCTS
+struct types
+(<fROSTK2RESV
+tk2 reserved
+="SRW2_ANCHOR
+$ vSRW2_BODY_LOCATION
+"=0SRW2_BOILERPLATE
+><SRW2_BUTTON
+15SRW2_COLUMN
+!>
+SRW2_DATA_MODEL
+"
+<SRW2_DISPLAY_TAG
+SRW2_DISTRIBUTION
+SRW2_ELEMENT
+0cSRW2_FIELD
+SRW2_FORMAT_EXCEPTION
+ReSRW2_FRAME
+heSRW2_GROUP
+SRW2_GROUP_NODE
+   SRW2_HYPERLINK
+SRW2_JAVA_APPLET
+SRW2_JAVA_PROPERTIES
+SRW2_LAYOUT
+#
+=SRW2_LAYOUT_GROUP
+zSRW2_LINK
+aySRW2_LISTS
+SRW2_MATRIX
+ SRW2_OGD_COLUMN_MAP
+" "SRW2_OG_DOCUMENT
+SRW2_PARAM_FORM
+SRW2_QUERY
+SRW2_TEXT_SEGMENT
+TOOL_COMMENT
+b0TOOL_LIBRARY
+TOOL_MODULE
+ &TOOL_PLSQL
+VG_COLOR
+VG_COLOR
+)VG_COLOR
+ITEMID
+)VG_COLOR
+CELLID
++VG_COLOR
+NAME_SET
+-VG_COLOR
+NAME_LENGTH
+-VG_COLOR
+COLOR_NAME
+%VG_COLOR
+'VG_COLOR
+GREEN
+'VG_COLOR
+BLUE
+To Char I Date Dd Mm Yyyy
+Sum Paid
+Total Daily Income 
+To          : 
+Sum Paid
+To Char I Date Dd Mm Yyyy
+Page &<PageNumber>
+ Date
+ Paid
+Total
+From Date:
+ Day
+Page &<PageNumber> of &<TotalPages>
+Cashier :
+Printed Date:
+Printed By:
+Branch      :
+Cash
+Visa
+ray68Q
+r0g25b0
+ " $
+r25g25b0@
+ " $
+r50g25b0
+ " $
+r75g25b0
+ " $
+r88g25b0
+ $ &
+	r100g25b0
+" $ &
+r0g25b50
+ $ & (
+	r25g25b50
+ $ & (
+	r50g25b50
+ $ & (
+	r75g25b50
+ $ & (
+	r88g25b50
+ $ & (
+
+r100g25b50
+" $ &
+r0g25b75
+ $ & (
+	r25g25b75
+ $ & (
+	r50g25b75
+ $ & (
+	r75g25b75
+ $ & (
+	r88g25b75
+ $ & (
+
+r100g25b75
+" $ &
+r0g25b88
+ $ & (
+	r25g25b88
+ $ & (
+	r50g25b88
+ $ & (
+	r75g25b88
+ $ & (
+	r88g25b88
+g75b100
+1"1#A&A*1.1/A2A6A:A>ABAF1J1K
+
+
+
+
+
+PBW2
+$ vSRW2_BODY_LOCATION
+"=0SRW2_BOILERPLATE
+><SRW2_BUTTON
+15SRW2_COLUMN
+!>
+SRW2_DATA_MODEL
+"
+<SRW2_DISPLAY_TAG
+SRW2_DISTRIBUTION
+SRW2_ELEMENT
+0cSRW2_FIELD
+SRW2_FORMAT_EXCEPTION
+ReSRW2_FRAME
+heSRW2_GROUP
+SRW2_GROUP_NODE
+   SRW2_HYPERLINK
+SRW2_JAVA_APPLET
+SRW2_JAVA_PROPERTIES
+SRW2_LAYOUT
+#
+=SRW2_LAYOUT_GROUP
+zSRW2_LINK
+aySRW2_LISTS
+SRW2_MATRIX
+ SRW2_OGD_COLUMN_MAP
+" "SRW2_OG_DOCUMENT
+SRW2_PARAM_FORM
+SRW2_QUERY
+SRW2_TEXT_SEGMENT
+TOOL_COMMENT
+b0TOOL_LIBRARY
+TOOL_MODULE
+ &TOOL_PLSQL
+VG_COLOR
+VG_COLOR
+)VG_COLOR
+ITEMID
+)VG_COLOR
+CELLID
++VG_COLOR
+NAME_SET
+-VG_COLOR
+NAME_LENGTH
+-VG_COLOR
+COLOR_NAME
+%VG_COLOR
+'VG_COLOR
+GREEN
+'VG_COLOR
+BLUE
+To Char I Date Dd Mm Yyyy
+Sum Paid
+Total Daily Income 
+To          : 
+Sum Paid
+To Char I Date Dd Mm Yyyy
+Page &<PageNumber>
+ Date
+ Paid
+Total
+From Date:
+ Day
+Page &<PageNumber> of &<TotalPages>
+Cashier :
+Printed Date:
+Printed By:
+Branch      :
+Cash
+Visa
+ray68Q
+r0g25b0
+ " $
+r25g25b0@
+ " $
+r50g25b0
+ " $
+r75g25b0
+ " $
+r88g25b0
+ $ &
+	r100g25b0
+" $ &
+r0g25b50
+ $ & (
+	r25g25b50
+ $ & (
+	r50g25b50
+ $ & (
+	r75g25b50
+ $ & (
+	r88g25b50
+ $ & (
+
+r100g25b50
+" $ &
+r0g25b75
+ $ & (
+	r25g25b75
+ $ & (
+	r50g25b75
+ $ & (
+	r75g25b75
+ $ & (
+	r88g25b75
+ $ & (
+
+r100g25b75
+" $ &
+r0g25b88
+ $ & (
+	r25g25b88
+ $ & (
+	r50g25b88
+ $ & (
+	r75g25b88
+ $ & (
+	r88g25b88
+g75b100
+E<HTML>
+<TITLE>Oracle HTML Navigator</TITLE>
+<HEAD>
+<SCRIPT LANGUAGE = "JavaScript">
+
+var jump_index = 1			// Jump to this page
+var num_pages = &TotalPages			// Total number of pages
+var basefilename = "&file_name"		// Base file name
+var fileext = "&file_ext"		//File extension
+
+/* jumps to "new_page" */
+function new_page(form, new_page)
+{
+	form.reqpage.value = new_page;
+	parent.frames[0].location = basefilename + "_" + new_page + "."+fileext;
+}
+
+/* go back one page */
+function back(form)
+{
+	/* if we are not in first page */
+	if (jump_index > 1)
+	{
+		jump_index--;
+		new_page(form, jump_index);
+	}
+}
+
+/* go forward one page */
+function forward(form)
+{
+	/* if we are not in last page */
+	if (jump_index < num_pages)
+	{
+		jump_index++;
+		new_page(form, jump_index);
+	}
+}
+
+/* go to first page */
+function first(form)
+{
+	if(jump_index != 1)
+	{
+		jump_index = 1;
+		new_page(form, jump_index);
+	}
+}
+
+/* go to last page */
+function last(form)
+{
+	if(jump_index != num_pages)
+	{
+		jump_index = num_pages;
+		new_page(form, jump_index);
+	}
+}
+
+/* go to the user specified page number */
+function pagenum(form)
+{
+	/* sanity check */
+	if (form.reqpage.value < 1)
+	{
+		form.reqpage.value = 1;
+	}
+	if (form.reqpage.value > num_pages)
+	{
+		form.reqpage.value = num_pages;
+	}
+	jump_index = form.reqpage.value;
+	new_page(form, jump_index);
+}
+</SCRIPT>
+</HEAD>
+
+<BODY>
+<FORM NAME="ThisForm" onSubmit="pagenum(this); return false;">
+<center><table><tr>
+<td> <INPUT TYPE="button"  VALUE="<< " onClick="first(this.form)">
+<td> <INPUT TYPE="button"  VALUE=" < " onClick="back(this.form)">
+<td> <INPUT TYPE="button"  VALUE="Page:" onClick="pagenum(this.form)">
+<td> <INPUT NAME="reqpage" VALUE="1" SIZE=2>
+<td> <INPUT TYPE="button"  VALUE=" > " onClick="forward(this.form)">
+<td> <INPUT TYPE="button"  VALUE=" >>" onClick="last(this.form)">
+</table></center>
+</FORM></BODY>
+</HTML>
+)
+SELECT   TRUNC (i_date) m_date, visa, SUM (paid) paid,
+         TO_NUMBER (TO_CHAR (i_date, 'd')) DAY
+    FROM installment i, reg r
+   WHERE r.reg_key = i.reg_key
+     AND iscanceled = 2
+     AND i_date >= :date_from
+     AND i_date < :date_to + 1
+     AND (i.created_by = :i_creator OR :i_creator IS NULL)
+     AND (branch_code = :pbranch OR :pbranch IS NULL)
+GROUP BY TRUNC (i_date), visa, TO_NUMBER (TO_CHAR (i_date, 'd'))
+ORDER BY 1
+@(F J
+n(n(r(v
+RUNONLY &<
+D_INCOME
+Cashier :
+Printed Date:
+Printed By:
+Branch      :
+Cash
+Visa
+ray68Q
+r0g25b0
+ " $
+r25g25b0@
+ " $
+r50g25b0
+ " $
+r75g25b0
+ " $
+r88g25b0
+ $ &
+	r100g25b0
+" $ &
+r0g25b50
+ $ & (
+	r25g25b50
+ $ & (
+	r50g25b50
+ $ & (
+	r75g25b50
+ $ & (
+	r88g25b50
+ $ & (
+
+r100g25b50
+" $ &
+r0g25b75
+ $ & (
+	r25g25b75
+ $ & (
+	r50g25b75
+ $ & (
+	r75g25b75
+ $ & (
+	r88g25b75
+ $ & (
+
+r100g25b75
+" $ &
+r0g25b88
+ $ & (
+	r25g25b88
+ $ & (
+	r50g25b88
+ $ & (
+	r75g25b88
+ $ & (
+	r88g25b88
+g75b100
+ $ & (
+
+r100g25b88
+# $ &
+	r0g25b100
+ $ & (
+
+r25g25b100@
+ $ & (
+
+r50g25b100
+ $ & (
+
+r75g25b100
+ $ & (
+
+r88g25b100
+ & ( *
+r100g25b100
+darkred
+blue
+darkblue
+   " $
+gray64\(\(\(
+   " $
+gray60ffffff
+   " $
+gray56p
+   " $
+gray52z
+r0g50b0
+ " $
+r25g50b0@
+ " $
+r50g50b0
+ " $
+r75g50b0
+ " $
+r88g50b0
+ $ &
+	r100g50b0
+" $ &
+r0g50b50
+ $ & (
+	r25g50b50
+ $ & (
+	r50g50b50
+ $ & (
+	r75g50b50
+ $ & (
+	r88g50b50
+ $ & (
+
+r100g50b50
+" $ &
+r0g50b75
+ $ & (
+	r25g50b75
+ $ & (
+	r50g50b75
+ $ & (
+	r75g50b75
+ $ & (
+	r88g50b75
+ $ & (
+
+r100g50b75
+" $ &
+r0g50b88
+ $ & (
+	r25g50b88
+ $ & (
+	r50g50b88
+ $ & (
+	r75g50b88
+ $ & (
+	r88g50b88
+ $ & (
+
+r100g50b88
+# $ &
+	r0g50b100
+ $ & (
+
+r25g50b100@
+ $ & (
+
+r50g50b100
+ $ & (
+
+r75g50b100
+ $ & (
+
+r88g50b100
+ & ( *
+r100g50b100
+   "
+yellow
+ $ &
+
+darkyellow
+magenta
+darkmagenta
+   " $
+gray48
+   " $
+gray44
+   " $
+gray40
+   " $
+gray36
+r0g75b0
+ " $
+r25g75b0@
+ " $
+r50g75b0
+ " $
+r75g75b0
+ " $
+r88g75b0
+ $ &
+	r100g75b0
+& ( *
+00r0g75b50
+ ( * ,
+	00r25g75b50
+ ( * ,
+	00r50g75b50
+ ( * ,
+	00r75g75b50
+ ( * ,
+	00r88g75b50
+ ( * ,
+
+00r100g75b50
+& ( *
+00r0g75b75
+ ( * ,
+	00r25g75b75
+ ( * ,
+	00r50g75b75
+ ( * ,
+	00r75g75b75
+ ( * ,
+	00r88g75b75
+ ( * ,
+
+00r100g75b75
+& ( *
+00r0g75b88
+ ( * ,
+	00r25g75b88
+ ( * ,
+	00r50g75b88
+ ( * ,
+	00r75g75b88
+ ( * ,
+	00r88g75b88
+ ( * ,
+
+00r100g75b88
+' ( *
+	00r0g75b100
+ ( * ,
+
+00r25g75b100@
+ ( * ,
+
+00r50g75b100
+ ( * ,
+
+00r75g75b100
+ ( * ,
+
+00r88g75b100
+ * , .
+00r100g75b100
+ & ( *
+00custom1
+ & ( *
+00custom2
+ & ( *
+00custom3
+ & ( *
+00custom4
+ $ & (
+00gray32
+ $ & (
+00gray28
+ $ & (
+00gray24
+ $ & (
+00gray20
+00r0g88b0
+ & (
+00r25g88b0@
+ & (
+00r50g88b0
+ & (
+00r75g88b0
+ & (
+00r88g88b0
+ ( *
+	00r100g88b0
+& ( *
+00r0g88b50
+ ( * ,
+	00r25g88b50
+ ( * ,
+	00r50g88b50
+ ( * ,
+	00r75g88b50
+ ( * ,
+	00r88g88b50
+ ( * ,
+
+00r100g88b50
+& ( *
+00r0g88b75
+ ( * ,
+	00r25g88b75
+ ( * ,
+	00r50g88b75
+ ( * ,
+	00r75g88b75
+ ( * ,
+	00r88g88b75
+ ( * ,
+
+00r100g88b75
+& ( *
+00r0g88b88
+ ( * ,
+	00r25g88b88
+ ( * ,
+	00r50g88b88
+ ( * ,
+	00r75g88b88
+ ( * ,
+	00r88g88b88
+ ( * ,
+
+00r100g88b88
+' ( *
+	00r0g88b100
+ ( * ,
+
+00r25g88b100@
+ ( * ,
+
+00r50g88b100
+ ( * ,
+
+00r75g88b100
+ ( * ,
+
+00r88g88b100
+ * , .
+00r100g88b100
+ & ( *
+00custom5
+ & ( *
+00custom6
+ & ( *
+00custom7
+ & ( *
+00custom8
+ $ & (
+00gray16
+ $ & (
+00gray12
+ $ & (
+00gray8
+ $ & (
+00gray4
+00r0g100b0
+ ( *
+	00r25g100b0
+ ( *
+	00r50g100b0
+ ( *
+	00r75g100b0
+ ( *
+	00r88g100b0
+ ( *
+
+00r100g100b0
+' ( *
+	00r0g100b50
+ ( * ,
+
+00r25g100b50@
+ ( * ,
+
+00r50g100b50
+ ( * ,
+
+00r75g100b50
+ ( * ,
+
+00r88g100b50
+ * , .
+00r100g100b50
+' ( *
+	00r0g100b75
+ ( * ,
+
+00r25g100b75@
+ ( * ,
+
+00r50g100b75
+ ( * ,
+
+00r75g100b75
+ ( * ,
+
+00r88g100b75
+ * , .
+00r100g100b75
+' ( *
+	00r0g100b88
+ ( * ,
+
+00r25g100b88@
+ ( * ,
+
+00r50g100b88
+ ( * ,
+
+00r75g100b88
+ ( * ,
+
+00r88g100b88
+ * , .
+00r100g100b88
+( * ,
+
+00r0g100b100
+ * , .
+00r25g100b100
+ * , .
+00r50g100b100
+ * , .
+00r75g100b100
+ * , .
+00r88g100b100
+ * , .
+00r100g100b100
+
+00r88g75b100
+ * , .
+00r100g75b100
+>p?p?pB0B
+>p?p?pB0B
+ >p@p@p@0F
+&Arial
+ >p@p@p@0F
+5Arial
+ >p@p@p@0F
+?Arial
+ >p@p@pB0B
+ >p@p@p@0P
+Times New Roman
+ >p@p@p@0P
+Times New Roman
+ >p@p@p@0P
+Times New Roman
+ >p@p@pB8B
+ >p@p@p@0P
+Times New Roman
+ >p@p@p@0P
+Times New Roman
+ >p@p@p@0P
+Times New Roman
+ >p@p@pB0B
+ >p@p@pB0B
+ >p@p@pB0B
+ >p@p@p@0P
+kTimes New Roman
+ >p@p@p@0P
+mTimes New Roman
+00r100g88b100
+ & ( *
+00custom5
+ & ( *
+00custom6
+ & ( *
+00custom7
+ & ( *
+00custom8
+ $ & (
+00gray16
+ $ & (
+00gray12
+ $ & (
+00gray8
+ $ & (
+00gray4
+00r0g100b0
+ ( *
+	00r25g100b0
+ ( *
+	00r50g100b0
+ ( *
+	00r75g100b0
+ ( *
+	00r88g100b0
+ ( *
+
+00r100g100b0
+' ( *
+	00r0g100b50
+ ( * ,
+
+00r25g100b50@
+ ( * ,
+
+00r50g100b50
+ ( * ,
+
+00r75g100b50
+ ( * ,
+
+00r88g100b50
+ * , .
+00r100g100b50
+' ( *
+	00r0g100b75
+ ( * ,
+
+00r25g100b75@
+ ( * ,
+
+00r50g100b75
+ ( * ,
+
+00r75g100b75
+ ( * ,
+
+00r88g100b75
+ * , .
+00r100g100b75
+' ( *
+	00r0g100b88
+ ( * ,
+
+00r25g100b88@
+ ( * ,
+
+00r50g100b88
+ ( * ,
+
+00r75g100b88
+ ( * ,
+
+00r88g100b88
+ * , .
+00r100g100b88
+( * ,
+
+00r0g100b100
+ * , .
+00r25g100b100
+ * , .
+00r50g100b100
+ * , .
+00r75g100b100
+ * , .
+00r88g100b100
+ * , .
+00r100g100b100
+
+00r88g75b100
+ * , .
+00r100g75b100
+/ bpd
+vpwpw
+{0|0}0~0
+7THOUSANDS
+Thousands Indicator
+DECI
+THOUSANDS
+/ bpd
+vpwpw
+|0}0~0
+8CURRENCY
+Currency Symbol
+CURRENCY
+/ bpd
+vpwpy
+}0~0
+9COPIES
+Number of Copies
+COPIES
+/ bpd
+vpwp|
+:DESFORMAT
+dflt
+Destination Format
+DESFORMAT
+/ bpd
+rpsps
+x0y0z0{0|0}0~p
+;DESNAME
+Destination Name
+DESNAME
+/ bpd
+rpspz
+<DESTYPE
+Screen
+Destination Type
+DESN
+DESTYPE
+/ bpd
+vpwpw
+{0|0}0~0
+BDATE_FROM
+on T
+DATE_FROM
+/ bpd
+rpsps
+w0x0y0z0{0|0}p~
+CDATE_TO
+DATE_TO
+/ bpd
+rpsps
+w0x0y0z0{0|0}p~ 
+GPaid
+Sum Paid
+PAID
+/ bpd
+JSumsum_paid_cashPerReport
+fTotal:
+SUMSUM_PAID_CASHPERREPORT
+/ bpd
+vpwpw
+{0|0}0~0
+I_CREATOR
+I_CREATOR
+ & ( *
+00custom6
+ & ( *
+00custom7
+ & ( *
+00custom8
+ $ & (
+00gray16
+ $ & (
+00gray12
+ $ & (
+00gray8
+ $ & (
+00gray4
+00r0g100b0
+ ( *
+	00r25g100b0
+ ( *
+	00r50g100b0
+ ( *
+	00r75g100b0
+ ( *
+	00r88g100b0
+ ( *
+
+00r100g100b0
+' ( *
+	00r0g100b50
+ ( * ,
+
+00r25g100b50@
+ ( * ,
+
+00r50g100b50
+ ( * ,
+
+00r75g100b50
+ ( * ,
+
+00r88g100b50
+ * , .
+00r100g100b50
+' ( *
+	00r0g100b75
+ ( * ,
+
+00r25g100b75@
+ ( * ,
+
+00r50g100b75
+ ( * ,
+
+00r75g100b75
+ ( * ,
+
+00r88g100b75
+ * , .
+00r100g100b75
+' ( *
+	00r0g100b88
+ ( * ,
+
+00r25g100b88@
+ ( * ,
+
+00r50g100b88
+ ( * ,
+
+00r75g100b88
+ ( * ,
+
+00r88g100b88
+ * , .
+00r100g100b88
+( * ,
+
+00r0g100b100
+ * , .
+00r25g100b100
+ * , .
+00r50g100b100
+ * , .
+00r75g100b100
+ * , .
+00r88g100b100
+ * , .
+00r100g100b100
+
+00r88g75b100
+ * , .
+00r100g75b100
+ BpD
+T(Zp^p^8^8`@b8f
+k0l0m0n0o0p0q
+r0s0t
+4M_G_date_GRPFR
+ BpD R
+T VpXpZ8Z8\@^8b
+g0h0i0j0k0l0m
+n0o0p
+5M_G_date_HDR
+ BpD N
+P(VpZpZ8Z8\@^8b
+g0h0i0j0k0l0m
+n0o0p
+6R_G_date
+ BpD
+R TpVpV8V8X8Z8\
+a0b0c0d0e0f0g
+h0i0j
+;M_G_date_FTR
+# JpL h
+j(nprpr@r8v8x8z
+3F_Sumsum_paid_cashPerReport
+NNNGNNNGNNNGNN0D00
+# JpL T
+V(Zp^p^8^8`8b8d
+p0q0r0sptpv0v
+} ~ 
+7F_date
+id_0
+# JpL X
+Z(^pbpb@b8f8h8j
+v0w0x0ypzp
+9F_Paid_Cash
+NNNGNNNGNNNGNN0D00
+NGNN
+# JpL R
+T(Zp^p^8^8`8b8d
+p0q0r0sptpv0v
+~F_day
+m
+sh
+# JpL X
+Z(^pbpb8b8d8f8h
+r0s0t0upvp
+F_date_from
+dd-mm-yyyy hh24:mi
+# JpL V
+X(^pbpb@b8f8h8j
+t0u0v0wpxp
+F_date_to
+dd-mm-yyyy hh24:mi
+# JpL T
+V(Zp^p^@^@b8f8h
+r0s0t0upvp
+CF_DATE2
+dd-mm-yyyy hh24:mi
+# JpL R
+T(Zp^p^8^@b8f8h
+t0u0v0wpxp
+JUSER
+"Print Date" dd-mm-yyyy hh24:mi
+# JpL V
+X(^pbpb8b8d8f8h
+t0u0v0wpxpz0z
+mF_branch
+# JpL P
+R(VpZpZ@Z8^8`8b
+l0m0n0opppr0r
+# JpL X
+Z(^pbpb@b8f8h8j
+v0w0x0ypzp
+UF_Paid_Visa
+NNNGNNNGNNNGNN0D00
+y hh
+# JpL j
+l(rpvpv@v8z8|8~
+WF_Sumsum_paid_visaPerReport1
+NNNGNNNGNNNGNN0D00
+ ( *
+
+00r100g100b0
+' ( *
+	00r0g100b50
+ ( * ,
+
+00r25g100b50@
+ ( * ,
+
+00r50g100b50
+ ( * ,
+
+00r75g100b50
+ ( * ,
+
+00r88g100b50
+ * , .
+00r100g100b50
+' ( *
+	00r0g100b75
+ ( * ,
+
+00r25g100b75@
+ ( * ,
+
+00r50g100b75
+ ( * ,
+
+00r75g100b75
+ ( * ,
+
+00r88g100b75
+ * , .
+00r100g100b75
+' ( *
+	00r0g100b88
+ ( * ,
+
+00r25g100b88@
+ ( * ,
+
+00r50g100b88
+ ( * ,
+
+00r75g100b88
+ ( * ,
+
+00r88g100b88
+ * , .
+00r100g100b88
+( * ,
+
+00r0g100b100
+ * , .
+00r25g100b100
+ * , .
+00r50g100b100
+ * , .
+00r75g100b100
+ * , .
+00r88g100b100
+ * , .
+00r100g100b100
+
+00r88g75b100
+ * , .
+00r100g75b100
+CF_DAYFORMULA
+STANDARD
+"PKG INIT"CF_DAYFORMULA""
+"FUNCTION"CF_DAYFORMULA"RETURN"CHAR"DAY""="1"
+"ELSIF"2"
+CF_DAYFORMULA
+^THOUSANDS
+Thousands Indicator
+THOUSANDS
+00custom1
+CF_BRANCHFORMULA
+STANDARD
+LDM91
+BRANCHES
+"PKG INIT"CF_BRANCHFORMULA"X"<cursor ptr>"<SQL statement. Line 5>""
+"FUNCTION"CF_BRANCHFORMULA"RETURN"CHAR"X"VARCHAR2"500"PBRANCH""IS NOT NULL"BRANCH_NAME"BRANCHES"BRANCH_CODE"=""
+CF_BRANCHFORMULA
+SELECT BRANCH_NAME   FROM BRANCHES  WHERE BRANCH_CODE = :b1"
+M Date
+CF_B
+M_DATE
+/b dpq
+{p{p{
+paid_in_cash
+Paid In Cash
+M_DA
+PAID_IN_CASH
+/b dpq
+{p{p{
+paid_in_visa
+Paid In Visa
+M_DA
+PAID_IN_VISA
+/b dpi
+wpwpw
+|0}0~0
+visa
+Visa
+VISA
+/b dp~
+Sumsum_paid_visaPerReport
+M_DA
+SUMSUM_PAID_VISAPERREPORT
+rwlo
+PAID_IN_VISAFORMULA
+STANDARD
+"PKG INIT"PAID_IN_VISAFORMULA""
+"FUNCTION"PAID_IN_VISAFORMULA"RETURN"NUMBER"NVL"VISA""2"="1"PAID"ELSIF"0""
+PAID_IN_VISAFORMULA
+|8~8
+F_Sumsum_paid_visaPerReport1
+NNNGNNNGNNNGNN0D00
+r75g0b100
+x$ &
+	r88g0b100
+x$ &
+
+r100g0b100
+   " $
+gray
+x" $ & (
+darkgray
+  " $
+cyan
+$ & (
+darkcyan
+x  " $ &
+gray80333333
+x  " $ &
+gray76p=p=p=
+x  " $ &
+gray72
+x  " $ &
+gray68
+r0g25b0
+x" $ &
+r25g25b0
+x" $ &
+r50g25b0
+x" $ &
+r75g25b0
+x" $ &
+r88g25b0
+x$ & (
+	r100g25b0
+$ & (
+r0g25b50
+x$ & ( *
+	r25g25b50
+x$ & ( *
+	r50g25b50
+x$ & ( *
+	r75g25b50
+x$ & ( *
+	r88g25b50
+x$ & ( *
+
+r100g25b50
+$ & (
+r0g25b75
+x$ & ( *
+	r25g25b75
+x$ & ( *
+	r50g25b75
+x$ & ( *
+	r75g25b75
+x$ & ( *
+	r88g25b75
+x$ & ( *
+
+r100g25b75
+$ & (
+r0g25b88
+x$ & ( *
+	r25g25b88
+x$ & ( *
+	r50g25b88
+x$ & ( *
+	r75g25b88
+x$ & ( *
+	r88g25b88
+x$ & ( *
+
+r100g25b88
+00custom1
+PAID_IN_CASHFORMULA
+STANDARD
+"PKG INIT"PAID_IN_CASHFORMULA""
+"FUNCTION"PAID_IN_CASHFORMULA"RETURN"NUMBER"NVL"VISA""2"="1"0"ELSIF"PAID""
+PAID_IN_CASHFORMULA
+Date Dd Mm Yyyy
+Page &<PageNumber>
+ Date
+ Paid
+Total
+From Date:
+ Day
+Page &<PageNumber> of &<TotalPages>
+Cashier :
+Printed Date:
+Printed By:
+Branch      :
+Cash
+Visa
+b(f j
+SQL*ReportWriterag
+REPORT
+LDM91
+D_INCOME
+LDMxg
+LDM91xp
+A"1#1&A*A.1/12A6A:A>ABAFAJ1K1L
+
+
+
+
+
+PBW2
+Writerag
+REPORT
+LDM91
+D_INCOME
+LDMxg
+LDM91xp
+CF_DAYFORMULA
+ >p@p@p@0P
+sTimes New Roman
+ >p@p@p@0P
+tTimes New Roman
+ >p@p@p@0P
+wTimes New Roman
+ >p@p@p@0P
+Times New Roman
+cf_dayformula
+cf_branchformula
+paid_in_visaformula
+paid_in_cashformula
+p$p1
+8090:
+?oPaid
+SUM ( paid )
+PAID
+p p$pK
+Q0R0S
+TO_NUMBER ( TO_CHAR ( i_date , 'd' ) )
+p p'p8
+A0B0C
+m_date
+TRUNC ( i_date )
+M_DATE
+p p%p*
+10203
+visa
+visa
+VISA
+ &p(
+.p2p2p2
+486888:8<
+@Q_1
+  FpH
+_xb8b8d8f8h
+kplplps
+sptp
+AG_date
+G_DATE
+LIST_G_DATE
+/ bpd
+vpwp{
+2PRINTJOB
+Show Print Job Dialog
+PRINTJOB
+/ bpd
+rpsp{
+3MODE
+Default
+Output Mode
+MODE
+/ bpd
+zp{p~
+4BACKGROUND
+ault
+Run in Background
+BACKGROUND
+/ bpd
+vpwp
+5ORIENTATION
+Default
+Orientation
+ORIENTATION
+/ bpd
+rpsps
+w0x0y0z0{0|0}p~
+6DECIMAL
+Decimal Indicator
+DECIMAL
+8`8b
+l0m0n0opppr0r
+# JpL X
+Z(^pbpb@b8f8h8j
+v0w0x0ypzp
+UF_Paid_Visa
+NNNGNNNGNNNGNN0D00
+y hh
+# JpL j
+l(rpvpv@v8z8|8~
+WF_Sumsum_paid_visaPerReport1
+NNNGNNNGNNNGNN0D00
+ ( *
+
+00r100g100b0
+' ( *
+	00r0g100b50
+ ( * ,
+
+00r25g100b50@
+ ( * ,
+
+00r50g100b50
+ ( * ,
+
+00r75g100b50
+ ( * ,
+
+00r88g100b50
+ * , .
+00r100g100b50
+' ( *
+	00r0g100b75
+ ( * ,
+
+00r25g100b75@
+ ( * ,
+
+00r50g100b75
+ ( * ,
+
+00r75g100b75
+ ( * ,
+
+00r88g100b75
+ * , .
+00r100g100b75
+' ( *
+	00r0g100b88
+ ( * ,
+
+00r25g100b88@
+ ( * ,
+
+00r50g100b88
+ ( * ,
+
+00r75g100b88
+ ( * ,
+
+00r88g100b88
+ * , .
+00r100g100b88
+( * ,
+
+00r0g100b100
+ * , .
+00r25g100b100
+ * , .
+00r50g100b100
+ * , .
+00r75g100b100
+ * , .
+00r88g100b100
+ * , .
+00r100g100b100
+
+00r88g75b100
+ * , .
+00r100g75b100
+/ bpd
+rpsps
+w0x0y0z0{0|0}p~(
+mday
+To Number I Date D
+/ bpd
+vpwpw
+{0|0}0~0
+CF_day
+Cf Day
+ Date
+CF_DAY
+/ bpd
+rpsps
+w0x0y0z0{0|0}p~
+_USER
+Date
+USER
+/ bpd
+rpsps
+w0x0y0z0{0|0}p~
+dPBRANCH
+Date
+PBRANCH
+/ bpd
+vpwpw
+|0}0~8
+jCF_branch
+CF_BRANCH
+/ bpd
+vpwpw
+{0|0}0~0
+m_date
+M Date
+CF_B
+M_DATE
+/ bpd
+zp{p{
+\paid_in_cash
+Paid In Cash
+M_DA
+PAID_IN_CASH
+/ bpd
+zp{p{
+]paid_in_visa
+Paid In Visa
+M_DA
+PAID_IN_VISA
+/ bpd
+vpwpw
+{0|0}0~0
+_visa
+Visa
+VISA
+/ bpd
+pSumsum_paid_visaPerReport
+M_DA
+SUMSUM_PAID_VISAPERREPORT
+vpwp
+5ORIENTATION
+Default
+Orientation
+ORIENTATION
+/ bpd
+rpsps
+w0x0y0z0{0|0}p~
+6DECIMAL
+Decimal Indicator
+DECIMAL
+8`8b
+l0m0n0opppr0r
+# JpL X
+Z(^pbpb@b8f8h8j
+v0w0x0ypzp
+UF_Paid_Visa
+NNNGNNNGNNNGNN0D00
+y hh
+# JpL j
+l(rpvpv@v8z8|8~
+WF_Sumsum_paid_visaPerReport1
+NNNGNNNGNNNGNN0D00
+ ( *
+
+00r100g100b0
+' ( *
+	00r0g100b50
+ ( * ,
+
+00r25g100b50@
+ ( * ,
+
+00r50g100b50
+ ( * ,
+
+00r75g100b50
+ ( * ,
+
+00r88g100b50
+ * , .
+00r100g100b50
+' ( *
+	00r0g100b75
+ ( * ,
+
+00r25g100b75@
+ ( * ,
+
+00r50g100b75
+ ( * ,
+
+00r75g100b75
+ ( * ,
+
+00r88g100b75
+ * , .
+00r100g100b75
+' ( *
+	00r0g100b88
+ ( * ,
+
+00r25g100b88@
+ ( * ,
+
+00r50g100b88
+ ( * ,
+
+00r75g100b88
+ ( * ,
+
+00r88g100b88
+ * , .
+00r100g100b88
+( * ,
+
+00r0g100b100
+ * , .
+00r25g100b100
+ * , .
+00r50g100b100
+ * , .
+00r75g100b100
+ * , .
+00r88g100b100
+ * , .
+00r100g100b100
+
+00r88g75b100
+ * , .
+00r100g75b100
+* Zp\
+a(bpfpf8f0h@n8r
+* Zp\
+a(bpfpf@f8j8l8n
+* Zp\ d
+f(jpnpn8n8p8r8t
+8B_date
+* Zp\ d
+f(jpnpn@n8r8t8v
+:B_Paid
+* Zp\ d
+f(jpnpn8n8p8r8t
+<B_Total
+* Zp\
+a(bpfpf8f8h8j8l
+VB_3
+* Zp\ d
+f(jpnpn8n8p8r8t
+|B_date1
+* Zp\
+h(nprpr8r@v8z8|
+B_PAGENUM1
+QUpd
+* Zp\
+a(bpfpf@f8j8l8n
+* Zp\
+a(bpfpf@f@j8n8p
+* Zp\
+a(bpfpf8f@j8n8p
+* Zp\ `
+b(fpjpj8j@n@r0v
+* Zp\
+a(bpfpf8f8h8j8l
+* Zp\ d
+f(jpnpn@n8r8t8v
+NB_Paid1
+* Zp\ d
+f(jpnpn@n8r8t8v
+QB_Paid2
+ ( * ,
+
+00r25g100b75@
+ ( * ,
+
+00r50g100b75
+ ( * ,
+
+00r75g100b75
+ ( * ,
+
+00r88g100b75
+ * , .
+00r100g100b75
+' ( *
+	00r0g100b88
+ ( * ,
+
+00r25g100b88@
+ ( * ,
+
+00r50g100b88
+ ( * ,
+
+00r75g100b88
+ ( * ,
+
+00r88g100b88
+ * , .
+00r100g100b88
+( * ,
+
+00r0g100b100
+ * , .
+00r25g100b100
+ * , .
+00r50g100b100
+ * , .
+00r75g100b100
+ * , .
+00r88g100b100
+ * , .
+00r100g100b100
+
+00r88g75b100
+ * , .
+00r100g75b100
